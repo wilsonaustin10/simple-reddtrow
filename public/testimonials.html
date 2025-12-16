@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Testimonials - Reddtrow Properties</title>
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <meta name="description" content="Read what our customers say about selling their homes to Reddtrow Properties. Real reviews from real homeowners across the country.">
+
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--primary:#8B2828;--secondary:#4F4F4F;--text:#1a1a1a;--text-muted:#6b7280;--bg:#fff;--bg-muted:#f9fafb;--border:#e5e7eb;--radius:0.75rem}
+    body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--primary);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .header{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+    .header-inner{max-width:1200px;margin:0 auto;padding:0.75rem 1rem;display:flex;align-items:center;justify-content:space-between}
+    .logo{height:56px;width:127px}
+    .btn{display:inline-flex;align-items:center;padding:0.75rem 1.5rem;border-radius:var(--radius);font-weight:600;font-size:0.875rem;background:var(--secondary);color:#fff;text-decoration:none}
+    .btn:hover{text-decoration:none;opacity:0.9}
+
+    main{max-width:1200px;margin:0 auto;padding:3rem 1rem}
+    h1{font-size:2rem;color:var(--primary);margin-bottom:0.5rem;text-align:center}
+    .subtitle{text-align:center;color:var(--text-muted);margin-bottom:1rem}
+    .rating{display:flex;align-items:center;justify-content:center;gap:0.5rem;margin-bottom:3rem}
+    .stars{color:#fbbf24;font-size:1.5rem}
+    .rating-text{font-weight:600}
+
+    .testimonials-grid{display:grid;gap:1.5rem}
+    @media(min-width:640px){.testimonials-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:1024px){.testimonials-grid{grid-template-columns:repeat(3,1fr)}}
+    .testimonial{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem}
+    .testimonial-stars{color:#fbbf24;margin-bottom:0.75rem}
+    .testimonial-quote{font-style:italic;color:#374151;line-height:1.6;margin-bottom:1rem}
+    .testimonial-author{border-top:1px solid var(--border);padding-top:0.75rem}
+    .testimonial-name{font-weight:600;color:var(--primary)}
+    .testimonial-location{font-size:0.875rem;color:var(--text-muted)}
+
+    .cta-box{background:rgba(139,40,40,0.05);padding:2rem;border-radius:var(--radius);text-align:center;margin-top:3rem}
+    .cta-box h3{font-size:1.5rem;color:var(--primary);margin-bottom:1rem}
+    .cta-box p{margin-bottom:1.5rem;color:var(--text-muted)}
+    .btn-lg{padding:1rem 2rem;font-size:1rem}
+
+    .footer{background:var(--primary);color:#fff;padding:1.5rem 1rem;text-align:center;margin-top:3rem}
+    .footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem 2rem;margin-bottom:1rem}
+    .footer-links a{color:#fff;opacity:0.8}
+    .footer-links a:hover{opacity:1}
+    .footer-copyright{font-size:0.875rem;opacity:0.8}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/"><img src="/reddtrow-logo.webp" alt="Reddtrow Properties" class="logo" width="127" height="56"></a>
+      <a href="/" class="btn">Get Cash Offer</a>
+    </div>
+  </header>
+
+  <main>
+    <h1>What Our Customers Say</h1>
+    <p class="subtitle">Real reviews from real homeowners who sold to Reddtrow Properties</p>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span class="rating-text">4.9/5 Average Rating</span>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"Sandra is very attentive and a great person to work with in the process of selling a home. Reddtrow is an awesome company to work with they walk you through each step of the process and are very professional to work with."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Felisha H.</div>
+          <div class="testimonial-location">Dallas, TX</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"At a time of significant trauma, Sandra was professional, calm, friendly, true to her word, and led us through an amazingly easy process to closing. From first contact to closing, we were impressed, and we would recommend Sandra and her group with enthusiasm."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Kerry B.</div>
+          <div class="testimonial-location">Phoenix, AZ</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"My family's experience with Reddtrow Properties, in particular Sandra Nesbitt, could not have gone any smoother or been any simpler. Sandra is a low-key, very professional 'straight-shooter.' I would highly recommend Reddtrow if you're looking to sell your home 'as is.'"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Steve Pierce</div>
+          <div class="testimonial-location">Atlanta, GA</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"I couldn't have asked for a better experience. You were always available for questions and kept an open line of communication at all times. Most importantly, I felt comfortable from the beginning to the end."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Tracy Hurndon</div>
+          <div class="testimonial-location">Denver, CO</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"I wanted to take the time to say, Thank you from the bottom of my heart! You are a true miracle worker! You saved my house! I was amazed by your knowledge of this process, you made everything seem so easy."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Kimberly C.</div>
+          <div class="testimonial-location">Waterbury, CT</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"Working with Sandra and the staff at Reddtrow Properties was a smooth, low stress process in an otherwise very stressful event for our family. We were made a very reasonable offer and Sandra/Team were very patient."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Mark W.</div>
+          <div class="testimonial-location">Miami, FL</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"Sandra and her company reps were professional, understanding, honest, and sincerely cared about me! They were patient and they tried to help me in anyway. I would highly recommend them if you want to deal with honest, sincere, professional, and knowledgeable buyer for your home!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Peter Arges</div>
+          <div class="testimonial-location">Charlotte, NC</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"Sandra was professional, prompt, and we had the quote in hand by the next morning. Sandra came out to view our home on a Monday and we closed the next Friday, ten days later! It was a simple, easy and quick process."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Jan R.</div>
+          <div class="testimonial-location">Portland, OR</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"I am so glad Sandra Nesbitt and Reddtrow Properties sent a letter explaining how we had another option of selling our house 'as is' after our fire. She is knowledgeable and experienced and is quick to respond. We closed within three weeks. I highly recommend Sandra and Reddtrow Properties!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Karen U.</div>
+          <div class="testimonial-location">Nashville, TN</div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-quote">"Latona and her team gave a new definition to the word professional. Their communication and follow-up was outstanding. Everything was done in a very timely manner. We had a bonafide cash offer in 2 weeks and it closed on time."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Anne G.</div>
+          <div class="testimonial-location">Chicago, IL</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-box">
+      <h3>Join Our Happy Homeowners</h3>
+      <p>Get your free cash offer today – fast, easy, and completely obligation-free.</p>
+      <a href="/" class="btn btn-lg">Get Your Cash Offer</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About Us</a>
+      <a href="/testimonials.html">Testimonials</a>
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      <a href="/terms-conditions.html">Terms & Conditions</a>
+    </div>
+    <p class="footer-copyright">&copy; 2025 Reddtrow Properties, LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
