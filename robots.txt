@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.reddtrowhomebuyers.com/sitemap.xml
+
+# Disallow admin/thank-you pages from indexing
+Disallow: /thank-you.html
